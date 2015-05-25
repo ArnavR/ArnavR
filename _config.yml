@@ -1,0 +1,42 @@
+name: "Spectral"
+description: "The awesome Jekyll theme."
+long_description: "This is a longer description, it's got to be awesome."
+url: "http://umangis.me/" # Change it to whatever URL you've got.
+baseurl: "/spectral" # Keep this blank if you're using your user repository. Else just add /
+# Edit the values above this line to match yours. Bad things might happen otherwise.
+
+paginate: 10
+
+markdown: redcarpet
+highlighter: pygments
+permalink: /:title/
+
+version: v1.1.0
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: umangraghuvanshi/spectral
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter: # your handle here
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<!--
+	Built on the Spectral theme by HTML5UP -->
+<html>
+	<head>
+		<title>{{ post.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+<li><b>Posts</b></li>
+  {% for post in site.posts limit: 5 %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+{% if site.footer-links.dribbble %}<a href="https://dribbble.com/{{ site.footer-links.dribbble }}"><i class="icon fa fa-dribbble"></i></a>{% endif %}
+{% if site.footer-links.email %}<a href="mailto:{{ site.footer-links.email }}"><i class="icon fa fa-email"></i></a>{% endif %}
+{% if site.footer-links.facebook %}<a href="https://www.facebook.com/{{ site.footer-links.facebook }}"><i class="icon fa fa-facebook"></i></a>{% endif %}
+{% if site.footer-links.flickr %}<a href="https://www.flickr.com/{{ site.footer-links.flickr }}"><i class="icon fa fa-flickr"></i></a>{% endif %}
+{% if site.footer-links.github %}<a href="https://github.com/{{ site.footer-links.github }}"><i class="icon fa fa-github"></i></a>{% endif %}
+{% if site.footer-links.instagram %}<a href="https://instagram.com/{{ site.footer-links.instagram }}"><i class="icon fa fa-instagram"></i></a>{% endif %}
+{% if site.footer-links.linkedin %}<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i class="icon fa fa-linkedin"></i></a>{% endif %}
+{% if site.footer-links.pinterest %}<a href="https://www.pinterest.com/{{ site.footer-links.pinterest }}"><i class="icon fa fa-pinterest"></i></a>{% endif %}
+{% if site.footer-links.rss %}<a href="{{ site.baseurl }}/feed.xml"><i class="icon fa fa-rss"></i></a>{% endif %}
+{% if site.footer-links.twitter %}<a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="icon fa fa-twitter"></i></a>{% endif %}
+{% if site.footer-links.stackoverflow %}<a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}"><i class="icon fa fa-stackoverflow"></i></a>{% endif %}
+{% if site.footer-links.youtube %}<a href="https://youtube.com/{{ site.footer-links.youtube }}"><i class="icon fa fa-youtube"></i></a>{% endif %}
+{% if site.footer-links.googleplus %}<a href="https://plus.google.com/{{ site.footer-links.googleplus }}"><i class="icon fa fa-googleplus"></i></a>{% endif %}
+
+						</ul>
+						<ul class="copyright">
+							<li>&copy; {{ site.name }}</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/jquery.scrollex.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/init.js"></script>
+
+	</body>
+</html>
