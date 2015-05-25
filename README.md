@@ -4,8 +4,8 @@ Spectral, the awesome Jekyll theme. This utilizes simple HTML and CSS to create 
 Getting started is pretty simple. Get your `_config.yml` in shape, and you're good to go.
 
 ===
-<img src="https://raw.github.com/umangraghuvanshi/spectral/master/images/screenshot-desktop.png" width="800" height="600" />
-<img src="https://raw.github.com/umangraghuvanshi/spectral/master/images/screenshot-mobile.png" width="150" height="400" />
+<img src="https://raw.github.com/umangraghuvanshi/spectral/master/images/screenshot-desktop.png" width="800" height="550" />
+<img src="https://raw.github.com/umangraghuvanshi/spectral/master/images/screenshot-mobile.png" width="180" height="400" />
 ===
 I welcome pull requests. Just make sure that whatever change you make is constructive. *Happy blogging!*
 
